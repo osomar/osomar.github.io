@@ -148,6 +148,20 @@ header h1 {
 .contact a:hover {
   text-decoration: none;
 }
+/* En styles.css */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.btn.whatsapp { background-color: #25D366; border-color: #128C7E; }
+.btn.whatsapp:hover { background: transparent; color: #25D366; }
+
+.btn.telegram { background-color: #0088cc; border-color: #0077b5; }
+.btn.telegram:hover { background: transparent; color: #0088cc; }
 
 /* ===== TOGGLE DE TEMA ===== */
 .theme-toggle {
